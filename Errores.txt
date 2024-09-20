@@ -1,0 +1,9 @@
+Errores:
+
+- ./src/states/{Preload.js, GameTitle.js, TheGame.js, GameOver.js}: Faltan las llaves tanto en clase como funciones. Faltan cierres de paréntesis. Faltan comas.
+
+- "Phasers" en vez de "Phaser".
+
+- "./src/states/TheGame.js": "x" en vez de "position.x".
+
+- Los archivos no tenían el export default ni import Phaser ni extends Phaser.Scene.
